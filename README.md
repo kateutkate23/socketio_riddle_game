@@ -1,34 +1,56 @@
-# Проект 1 – "Игра в загадки" (Курс "Пишем веб-сокеты на Python: socket.io")
+# Riddle Game (Socket.IO + Python)
 
-## Описание
+This project is based on a template from the course [Stepik: Writing WebSockets in Python](https://stepik.org/course/195202/info). It is a simple riddle game built with Python and Socket.IO. In this project I learned how to work with WebSockets, handle real-time communication, and manage game logic.
+## Features
 
-Веб-приложение с использованием WebSocket технологии для игры в загадки. 
-Приложение поддерживает обмен сообщениями между клиентом (на фронте) и сервером для показа 
-пользователю загадок и получения ответов.
+- Real-time interaction with players via WebSockets
+- Players can request new riddles and submit answers
+- The system evaluates answers and keeps track of scores
+- Implements error handling for invalid inputs
 
-## Задание
+## Installation and Setup
 
-Разработать бэкенд на Python с использованием библиотеки Socket.IO для реализации сервера, 
-который будет обрабатывать подключения клиентов, отправлять загадки и проверять ответы. 
-В общем общаться с фронтом по веб-сокетам.
-
-## Запуск приложения
-
-1. Установите необходимые зависимости:
-
-   ```bash
-   pip install -r requirements.txt
-
-2. Запуск бэкенда:
-
-    ```bash
+1. **Clone the repository:**
+    
+    ```sh
+    git clone https://github.com/kateutkate23/socketio_riddle_game
+    cd socketio_riddle_game
+    ```
+    
+2. **Create a virtual environment and activate it:**
+    
+    ```sh
+    python -m venv venv
+    # On Linux
+    source venv/bin/activate
+    # On Windows
+    venv\Scripts\activate
+    ```
+    
+3. **Install dependencies:**
+    
+    ```sh
+    pip install -r requirements.txt
+    ```
+    
+4. **Run the application:**
+    
+    ```sh
     python main.py
+    ```
+    
+5. **Open in your browser:**
+    
+    - Visit `http://127.0.0.1:8000/` to start playing.
 
-3. Приложение будет доступно по адресу http://127.0.0.1:8000
+## Technologies Used
 
-## Запуск тестов
+- Python
+- Socket.IO
+- Eventlet
 
-Тесты уже реализованы и запускаются скриптом run_tests.sh (приложение при этом не должно быть запущено).
+---
 
-   ```bash
-   ./run_tests.sh
+### License
+
+This project is for learning purposes and is open for modification and improvement.
