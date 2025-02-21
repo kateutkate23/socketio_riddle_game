@@ -12,7 +12,7 @@ This project is based on a template from the course [Stepik: Writing WebSockets 
 1. **Clone the repository:**
     
     ```sh
-    git clone https://github.com/kateutkate23/socketio_riddle_game
+    git clone https://github.com/kateutkate23/socketio_riddle_game.git
     cd socketio_riddle_game
     ```
     
