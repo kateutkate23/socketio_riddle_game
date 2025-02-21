@@ -6,7 +6,6 @@ This project is based on a template from the course [Stepik: Writing WebSockets 
 - Real-time interaction with players via WebSockets
 - Players can request new riddles and submit answers
 - The system evaluates answers and keeps track of scores
-- Implements error handling for invalid inputs
 
 ## Installation and Setup
 
